@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
+	// this is a comment
 	port := os.Getenv("PORT")
 
 	if port == "" {
